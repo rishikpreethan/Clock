@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#main{
+    height: 85vh;
+    width:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#clock{
+    height: 50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    border:solid;
+    border-width: 1vh;
+    border-color:rgb(71, 71, 71);
+    border-radius: 4vh;
+    margin-bottom:1vh;
+}
+#time{
+    font-size: 14vh;
+    padding: 4vh;
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#hr12{
+    width: 85vh;
+    height:16vh;
+    margin:3vh;
+    font-size: 10vh;
+    border:solid;
+    border-color:yellow;
+    border-radius: 2vh;
+    background-color: rgb(16, 16, 16);
+    color: yellow;
+    
+}
+#hr12:hover{
+    background-color: yellow;
+    color: rgb(16, 16, 16);
+    cursor: pointer;
+}
+
+
+
+
+#main2{
+    height:50vh;
+    margin-top:1vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+#stopwatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid;
+    width:100vh;
+    margin-right: 1vh;
+    border-radius: 4vh;
+    border-width: 1vh;
+    border-color:rgb(71, 71, 71);
+    background-color: rgb(26, 26, 26);
+}
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid;
+    width:100vh;
+    margin-left: 1vh;
+    border-radius: 4vh;
+    border-width: 1vh;
+    border-color:rgb(71, 71, 71);
+    background-color: rgb(26, 26, 26);
+}
