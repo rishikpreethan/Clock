@@ -1,3 +1,4 @@
+//FOR CLOCK
 const timeEl = document.getElementById("time1");
 const toggleBtn = document.getElementById("hr12");
 let is12hr = false;
@@ -27,6 +28,8 @@ function updateTime() {
 
 setInterval(updateTime,1000);
 
+
+//FOR STOPWATCH
 const display = document.getElementById("time2");
 const btn = document.getElementById("start")
 let timer = null;
@@ -36,7 +39,7 @@ let isRunning = false;
 document.getElementById("start").onclick = function start(){
     if(!isRunning){
         startTime = Date.now() - elapsedTime;
-        timer = setInterval(update,1);
+        timer = setInterval(update,10);
         isRunning = true;
         btn.textContent = "Pause";
     }
