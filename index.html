@@ -2,25 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>Clock</title>
     <link rel="stylesheet" href="design.css">
 </head>
 <body>
     <div id="main">
         <div id="clock"> 
-            <label id="time">00:00:00</label>
-            <div id="buttons">
-                <button id="hr12">12 hour</button>
-            </div>
+            <label class="heading">Clock:</label>
+            <br><br>
+            <label id="time1">00:00:00</label>
+            <br>
+            <button id="hr12">12 hour</button>
         </div>
-        <div id="main2">
-            <div id="stopwatch">
-                <label>Stopwatch</label>
-            </div>
-            <div id="timer">
-                <label>Timer</label>
-            </div>
+        <div id="stopwatch"> 
+            <label class="heading">Stopwatch:</label>
+            <br><br>
+            <label id="time2">00:00:00:00</label>
+            <br>
+            <div id="buttons">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
         </div>
     </div>
     <script src="index.js"></script>
