@@ -6,6 +6,7 @@ let is12hr = false;
 toggleBtn.onclick = () => {
     is12hr = !is12hr;
     toggleBtn.textContent = is12hr ? "24 hour" : "12 hour";
+    updateTime();
 };
 
 function updateTime() {
